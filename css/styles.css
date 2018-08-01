@@ -1,0 +1,69 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.flow-text {
+  font-size: 16px;
+}
+
+nav {
+    color: #fff;
+    background-color:  #593A75;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    
+ }
+
+nav, .brand-logo {
+ 	font-family: 'Poiret One', cursive;
+	color: #593A75;
+	color: #fff;
+	padding: 0 40px;
+}
+
+nav, .nav-wrapper {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lobster', cursive;
+}
+
+a {
+  color: #012841;
+}
+
+ main {
+   flex: 1 0 auto;
+}
+
+.div-header {
+  padding-top: 50px;
+}
+
+.footer-logo {
+	font-size: 18px;
+	padding: 0 5px;
+	line-height: 30%;
+}
+
+.footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #593A75;
+}
+

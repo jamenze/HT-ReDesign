@@ -11,7 +11,7 @@ body {
 
 nav {
     color: #fff;
-    background-color:  #593A75;
+    background-color: darkblue;
     width: 100%;
     height: 56px;
     line-height: 56px;
@@ -20,7 +20,7 @@ nav {
 
 nav, .brand-logo {
  	font-family: 'Poiret One', cursive;
-	color: #593A75;
+	color: darkblue;
 	color: #fff;
 	padding: 0 40px;
 }
@@ -64,6 +64,6 @@ a {
     align-items: center;
     padding: 10px 0px;
     color: #fff;
-    background-color: #593A75;
+    background-color: darkblue;
 }
 

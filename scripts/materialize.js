@@ -17,6 +17,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 (function (factory) {
   window.cash = factory();
 })(function () {
+
+    $(".dropdown-trigger").dropdown(
+      {
+       hover: false, // Activate on click
+       belowOrigin: true, // Displays dropdown below the button
+       alignment: 'right', // Displays dropdown with edge aligned to the left of button
+     }
+      
+    );
+
+
+
   var doc = document,
       win = window,
       ArrayProto = Array.prototype,
@@ -8144,6 +8156,15 @@ $jscomp.polyfill = function (e, r, p, m) {
   }
 
   $(document).ready(function () {
+
+  $('.dropdown-trigger').dropdown(
+      {
+       hover: false, // Activate on click
+       belowOrigin: true, // Displays dropdown below the button
+       alignment: 'right' // Displays dropdown with edge aligned to the left of button
+     }
+    );
+
     // Handle removal of static chips.
     $(document.body).on('click', '.chip .close', function () {
       var $chips = $(this).closest('.chips');

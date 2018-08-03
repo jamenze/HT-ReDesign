@@ -27,9 +27,10 @@
 
 <body>
   <!-- Nav Dropdown structure -->
-  <ul class="dropdown-content" id="comp-menu3">
+  <ul id="dropdown1" class="dropdown-content">
     <li><a href="#">Our Mission</a></li>
     <li><a href="#">Monteen McCord</a></li>
+    <li class="divider"</li>
     <li><a href="#">Test</a></li>
   </ul>
 
@@ -42,7 +43,9 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
 
         <!-- Dropdown trigger -->
-        <li><a href="#" data-activates="comp-menu3" class="dropdown-button">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#" data-target="dropdown1" class="dropdown-trigger">About<i class="material-icons right">arrow_drop_down</i></a></li>
+
+        
         <li><a href="MeetOurOwls.html">Meet Our Owls</a></li>
         <li><a href="gallery.html">Contact Us</a></li>
         <li><a href="donate.html" class="waves-effect green waves-light btn-large healing">DONATE</a></li>
@@ -94,12 +97,17 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--     <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+ -->
     <script src="scripts/materialize.js"></script>
-    <script src="scripts/materialize.min.js"></script>
-    <script src="scripts/old scripts/scripts.js"></script>
+  <!--   <script src="scripts/materialize.min.js"></script> -->
+<!--     <script src="scripts/old scripts/scripts.js"></script> -->
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script> -->
 
 <!--     <script>
       $(document).ready(function(e) {

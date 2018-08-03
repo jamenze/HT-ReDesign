@@ -10,12 +10,26 @@ body {
 }
 
 nav {
-    color: #fff;
+/*    color: #fff;
     background-color: darkblue;
     width: 100%;
     height: 56px;
-    line-height: 56px;
-    
+    line-height: 56px;*/
+
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    padding: 0px 20px;   
+ }
+
+ nav, .navbar-inner, .navbar, .btn-navbar, .navbar-wrapper {
+  border: 0px;
+ }
+
+ section {
+  background-image: url("../images/Owls/Smith.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
  }
 
 nav, .brand-logo {
@@ -23,10 +37,12 @@ nav, .brand-logo {
 	color: darkblue;
 	color: #fff;
 	padding: 0 40px;
+  border: 0px;
 }
 
 nav, .nav-wrapper {
 	font-family: 'Open Sans', sans-serif;
+  border: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {

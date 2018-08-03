@@ -22,9 +22,6 @@ nav {
 
  }
 
- nav, .navbar-inner, .navbar, .btn-navbar, .navbar-wrapper {
-  border: none;
- }
 
  section {
   background-image: url("../images/Owls/Smith.jpg");

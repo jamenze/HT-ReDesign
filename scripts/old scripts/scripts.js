@@ -2,13 +2,15 @@
 
   $(function(){
 
-  	$(".dropdown-button").dropdown(
-  		// {
-  		// 	hover: false, // Activate on click
-  		// 	belowOrigin: true, // Displays dropdown below the button
-  		// 	alignment: 'right', // Displays dropdown with edge aligned to the left of button
-  		// 
+  	$(".dropdown-trigger").dropdown(
+  		{
+  			hover: false, // Activate on click
+  			belowOrigin: true, // Displays dropdown below the button
+  			alignment: 'right', // Displays dropdown with edge aligned to the left of button
+  		}
   	);
+
+  	$(".dropdown-trigger").dropdown();
 
   	$('.tooltipped').tooltip({delay: 50});
 

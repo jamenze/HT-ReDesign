@@ -1,5 +1,11 @@
 (function($){
+
   $(function(){
+
+  	$(".dropdown-trigger").dropdown(
+  		
+  	);
+
 
   	$('.dropdown-trigger').dropdown(
   		hover: false);

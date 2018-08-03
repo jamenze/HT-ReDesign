@@ -3,7 +3,11 @@
   $(function(){
 
   	$(".dropdown-trigger").dropdown(
-  		
+  		{
+  			hover: true, // Activate on hover
+  			belowOrigin: true, // Displays dropdown below the button
+  			alignment: 'right', // Displays dropdown with edge aligned to the left of button
+  		}
   	);
 
 

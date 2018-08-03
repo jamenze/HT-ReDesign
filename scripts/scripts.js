@@ -1,6 +1,9 @@
 (function($){
   $(function(){
 
+  	$('.dropdown-trigger').dropdown(
+  		hover: false);
+
   	$('.tooltipped').tooltip({delay: 50});
 
     $('.button-collapse').sideNav();

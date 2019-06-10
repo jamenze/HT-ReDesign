@@ -11,7 +11,7 @@ As a patron of this wonderful charity, I wanted to challenge myself to create a 
   * Remove Blog and Latest Facebook posts display.
   * Create more prominent Donate button/page.
   * Create a page for tips on how to create a safer enviroment for owls.
-* Build a website based off the prototypes with HTML, CSS, and JavaScript.
+  * Build a website based off the prototypes with HTML, CSS, and JavaScript.
   
 ## Future Upgrades
 * Mock logo creation / branding strategy.

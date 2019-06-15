@@ -16,5 +16,4 @@ As a patron of this wonderful charity, I wanted to challenge myself to create a 
 ## Future Upgrades
 * Mock logo creation / branding strategy.
    
-## Live Demo
-* Coming Soon!
+
